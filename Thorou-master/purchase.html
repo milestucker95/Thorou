@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/purchase.css">
+    <title>THOROU</title>
+  </head>
+  <body>
+    <div class="extension">
+      <div class="logo">
+        <img src="imgs/Thorou_logo.png" alt="">
+      </div>
+      <div class="product_title">
+        <h1>THOROU</h1>
+      </div>
+      <div class="instructions">
+        <h3>Reward points per card</h3>
+        <p>View which card is best to use based on the reward point multiplier! (i.e. "2x") </p>
+      </div>
+      <div class="selection_list">
+        <div class="card_option">
+          <div class="chase_freedom">
+            <img src="imgs/chase_freedom.png" alt="">
+            <h3>Chase Freedom</h3>
+            <div class="points">
+              <span> <strong id="chase_freedom_points"></strong>  </span>
+            </div>
+          </div>
+        </div>
+        <div class="card_option">
+        <div class="chase_freedom_unlimited">
+          <img src="imgs/chase_freedom_unlimited.png" alt="">
+          <h3>Chase Freedom Unlimited</h3>
+          <div class="points">
+            <span> <strong id="freedom_unlimited_points"></strong>  </span>
+          </div>
+        </div>
+      </div>
+      <div class="card_option">
+        <div class="chase_sapphire_reserve">
+          <img src="imgs/chase_sapphire_reserve.png" alt="">
+          <h3>Chase Sapphire Reserve</h3>
+          <div class="points">
+            <span> <strong id="chase_sapphire_points"></strong>  </span>
+          </div>
+        </div>
+      </div>
+      <div class="card_option">
+        <div class="discover_it">
+          <img src="imgs/discover_it.jpg" alt="">
+          <h3>Discover it® Cash Back</h3>
+          <div class="points">
+            <span> <strong id="discover_it_points"></strong>  </span>
+          </div>
+        </div>
+      </div>
+      <div class="card_option">
+        <div class="citi_double_cash">
+          <img src="imgs/citi_double_cash.jpg" alt="">
+          <h3>Citi® Double Cash Card</h3>
+          <div class="points">
+            <span> <strong id="citi_double_cash_points"></strong>  </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu_bar">
+        <!-- <button type="button" id="login_button" class="login_button"></button>
+        <a href="#" id="logout_button" class="logout_button">Logout</a> -->
+	      <!-- <button type="button" id="logout_button" class="logout_button">Logout</button> -->
+    </div>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.410.0.min.js"></script>
+    <script src="js/oauth.js"></script>
+    <script src="card_multiplier.js"></script>
+
+    <!-- <script src="js/card_data.js"></script> -->
+  </body>
+</html>

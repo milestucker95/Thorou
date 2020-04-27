@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://kit.fontawesome.com/a5277acba6.js" crossorigin="anonymous"></script>
+    <script src="js/popup.js"></script>
+  </head>
+  <body>
+    <div class="extension">
+      <div class="logo">
+        <img src="imgs/thoroulogo.png" alt="">
+      </div>
+      <div>
+        <form>
+          <ul class="credit_card_selector">
+            <label style="display: block; text-align: center;"> Select Your Credit Card</label>
+            <br>
+            <li>
+              <input id="ChaseSapphireReserveCheckBox" type="checkbox" value="Chase_Sapphire_Reserve">
+              <label>Chase Sapphire Reserve</label>
+            </li>
+            <li>
+              <input id="ChaseFreedomUnlimitedCheckbox" type="checkbox" value="Chase_Freedom_Unlimited">
+              <label>Chase Freedom Unlimited</label>
+            </li>
+            <li>
+              <input id="ChaseFreedomCheckbox" type="checkbox" value="Chase_Freedom" placeholder="Chase Freedom">
+              <label>Chase Freedom</label>
+            </li>
+            <li>
+              <input id="OtherCheckbox" type="checkbox" value="Other">
+              <label>Other</label>
+            </li>
+          </ul>
+          <textarea id = "textAreaSignup" placeholder="Enter Your Other Credit Cards.
+Ex: American Express, American Express Gold"></textarea>
+          <button type="button" id="complete_signup_button">Complete Signup</button>
+        </form>
+      </div>
+    </div>
+    <script src="require.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.410.0.min.js"></script>
+    <script src="add_creditcards.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+  </body>
+</html>

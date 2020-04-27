@@ -1,0 +1,140 @@
+.extension{
+  width: 300px;
+  height: 450px;
+  font-family: 'Roboto', sans-serif;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product_title{
+  display: block;
+  text-align: center;
+  color: #78A175;
+}
+
+.product_title h1{
+  font-size: 20px;
+}
+
+.instructions h3{
+  font-size: 20px;
+  color: #000000;
+  padding: -4px;
+  margin-bottom: -7px;
+}
+
+.instructions p{
+  color: #A9A9A9;
+}
+
+.instructions {
+  margin-top: 40px;
+  color: #707070;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+
+.selection_list{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  overflow-y: scroll;
+  scrollbar-color: #ffffff;
+  max-height: 300px;
+  max-width: 300px;
+  /* border-bottom: 1px solid #505050; */
+  border-top: 1px solid;
+  border-color: #D3D3D3;
+
+}
+
+.card_option{
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #D3D3D3;
+  width: 300px;
+}
+
+.card_option  img{
+  height: 50px;
+  width: 70px;
+  float:left;
+  margin-left: 10px;
+}
+
+.card_option h3{
+  font-size: 15px;
+  font-weight: lighter;
+  position: relative;
+  left: 10px;
+  margin-bottom: 4px;
+}
+
+.card_option{
+  margin-bottom: 5px;
+}
+
+.points {
+  padding-top: 3px;
+  margin-right: 30px;
+  text-align: right;
+}
+
+.points h3{
+  left: auto;
+}
+
+.login_button{
+  background:url(../imgs/web/1x/btn_google_signin_dark_normal_web.png) no-repeat;
+  background-size: 100%;
+  border: none;
+  position: absolute;
+  width: 214px;
+  height: 50px;
+  left: 50px;
+  top: 500px;
+  text-align: center;
+}
+
+.login_button:hover {
+  /* background-color: #78A175; */
+  /* color: #fff; */
+  /* transform: translateY(-7px); */
+  cursor: pointer;
+}
+
+.logout_button{
+
+  top: 500px;
+  left: 50px;
+  /* background-color: #78A175; */
+  /* border-radius: 25px; */
+  /* border: none; */
+  /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
+  color: #4285F4;
+  font-weight: lighter;
+  display: inline-block;
+  text-align: center;
+  margin-top: 40px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.logout_button:hover {
+  /* background-color: #78A175; */
+  text-decoration: underline;
+
+  /* color: #fff;
+  text-decoration: underline;
+  text-decoration-color:#4285F4; */
+  /* transform: translateY(-7px); */
+  /* cursor: pointer; */
+}

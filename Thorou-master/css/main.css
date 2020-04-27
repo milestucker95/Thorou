@@ -1,0 +1,571 @@
+img{
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hidden {
+  display: none !important;
+}
+.credit_card_selector{
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  left: 45px;
+  top: 220px;
+
+  background: #FFFFFF;
+  border: 1px solid #85BB65;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  list-style-type:none;
+  padding: 0;
+
+
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #85BB65;
+}
+
+.description-text {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #85BB65;
+  text-align: center;
+}
+
+.link-to-signup-page {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #85BB65;
+  text-align: center;
+  position: relative;
+  text-decoration: underline;
+  top: 130px;
+  left: 1.5px;
+}
+
+.link-to-login-page {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #85BB65;
+  text-align: center;
+  position: relative;
+  text-decoration: underline;
+  top: 1px;
+}
+
+#textAreaSignup{
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  left: 45px;
+  top: 350px;
+
+  background: #FFFFFF;
+  border: 1px solid #85BB65;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  list-style-type:none;
+  resize: none;
+
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #85BB65;
+}
+
+.extension{
+  width: 300px;
+  height: 600px;
+}
+
+#textAreaSignup::placeholder{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #85BB65;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.greenCheeck {
+  color: #85BB65;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#inputField {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #85BB65;
+}
+
+.email_login_field{
+  background: #FFFFFF;
+  border: 1px solid #85BB65;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+
+  position: absolute;
+  width: 214px;
+  height: 29px;
+  left: 50px;
+  top: 210px;
+}
+
+.email_login_field::placeholder {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #85BB65;
+}
+
+#email_signup_field{
+  background: #FFFFFF;
+  border: 1px solid #85BB65;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+
+  position: absolute;
+  width: 250px;
+  height: 29px;
+  left: 45px;
+  top: 144px;
+}
+
+#email_signup_field::placeholder {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #85BB65;
+}
+
+#list_cards{
+  margin-top: 50px;
+  min-height: 10em;
+  align-items: center;
+}
+
+.website_button{
+  background: #78A175;
+  border: 1px solid #78A175;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  position: absolute;
+  width: 214px;
+  height: 45px;
+  left: 50px;
+  top: 500px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-height: 600px;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.login_button{
+
+  background: #85BB65 !important;
+  border: 1px solid #85BB65 !important;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 50px !important;
+
+  position: absolute !important;
+  width: 214px !important;
+  height: 29px !important;
+  left: 50px !important;
+  top: 420px !important;
+
+
+  font-family: 'Roboto', sans-serif !important;
+  letter-spacing: 2.5px !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  text-align: center !important;
+  color: #FFFFFF !important;
+}
+
+.login_button:hover {
+  background-color: #56A333;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.logout_button{
+  top: 430px;
+  left: 50px;
+  background-color: #85BB65;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-weight: lighter;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  height: 30px;
+  width: 180px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  /* transition: all 0.3s ease 0s; */
+  cursor: pointer;
+  outline: none;
+}
+
+.logout_button:hover {
+  background-color: #56A333;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.purchase{
+  color: #000;
+}
+
+.selection_list{
+  color: #fff;
+  overflow: scroll;
+  margin-top: 50px;
+  max-height: 270px;
+  max-width: 300px;
+  margin: auto;
+  scrollbar-color: #ffffff;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+
+#complete_signup_button {
+  position: absolute;
+  width: 199px;
+  height: 29px;
+  left: 55px;
+  top: 460px;
+  width: 230px;
+  height: 29px;
+
+  background: #85BB65;
+  border: 1px solid #85BB65;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#complete_signup_button:hover {
+  background-color: #56A333;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.card_choice{
+  background-color: #85BB65;
+  /* height: 100px;
+  width: 360px; */
+  display: block;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  cursor: pointer;
+  outline:none;
+}
+
+.card_choice h3{
+  text-align: center;
+}
+
+.card_choice .info{
+  margin-left: 20px;
+}
+
+/* .info{
+  display: inline-block;
+} */
+
+.info span{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+
+}
+
+
+.info strong{
+  background-color: white;
+  color: #85BB65;
+  padding: 2px 2px 2px 2px;
+}
+
+.menu_bar button {
+  display: inline-block;
+  padding-left: 49px;
+  padding-right: 50px;
+  padding-bottom: 4px;
+  color: black;
+  border: none;
+  outline:none;
+  cursor: pointer;
+}
+
+.menu_bar button:hover {
+  display: inline-block;
+  padding-left: 49px;
+  padding-right: 50px;
+  padding-bottom: 4px;
+  color: black;
+  cursor: pointer;
+  border-bottom: 5px solid #85BB65;
+}
+
+.menu_bar button:focus {
+  border-bottom: 5px solid #85BB65;
+}
+
+
+
+
+.menu_bar i{
+   /* margin-left: 50px; */
+  /*margin-right: 70px;
+  width: 20px;
+  height: 20px; */
+}
+=======
+img{
+  height: 100px;
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.extension{
+  width: 300px;
+  height: 480px;
+}
+
+.account h2{
+  /* margin-top: px; */
+  /* min-height: 10em; */
+  text-align: center;
+  color: #85BB65;
+  font-family: 'Roboto', sans-serif;
+  /* font-weight: lighter; */
+}
+
+.account{
+  margin-bottom: 30px;
+}
+
+#list_cards {
+  /* margin-top: px; */
+  /* min-height: 10em; */
+  text-align: center;
+  color: #85BB65;
+
+}
+
+#list_cards h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+.logout_button{
+  background-color: #85BB65;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-weight: lighter;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  height: 30px;
+  width: 180px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.logout_button:hover {
+  background-color: #56A333;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.purchase{
+  color: #000;
+}
+
+.selection_list{
+  color: #505050;
+  overflow: scroll;
+  margin-top: 50px;
+  max-height: 270px;
+  margin: auto;
+  scrollbar-color: #ffffff;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #DCDCDC;
+  border-left: none;
+  border-right: none;
+}
+
+.instructions h3{
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+.instructions {
+  color: #85BB65;
+
+}
+
+.card_choice{
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  color: #85BB65;
+  text-align: left;
+  cursor: pointer;
+  border-top: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+.card_choice h3{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+.card_choice .info{
+  margin-left: 20px;
+}
+
+.info span{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+
+}
+
+.info strong{
+  background-color: white;
+  color: #85BB65;
+  padding: 2px 2px 2px 2px;
+}
+
+.menu_bar button {
+  display: inline-block;
+  padding-bottom: 4px;
+  color: #DCDCDC;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  padding-left: 50px;
+  padding-right: 49px;
+}
+
+.menu_bar button:hover {
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 49px;
+  padding-bottom: 4px;
+  cursor: pointer;
+}
+
+.menu_bar button:focus {
+  border-bottom: 5px solid #85BB65;
+  color: black;
+}
